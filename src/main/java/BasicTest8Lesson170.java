@@ -31,9 +31,11 @@ public class BasicTest8Lesson170 {
 			System.out.println("Element \t" + i + "\t" + all.get(i).getText());
 		}
 		
+		all.get(2).click();
+		
 		//driver.findElement(By.cssSelector("input[type='text']")).sendKeys("admin");
 		//driver.findElement(By.cssSelector("input[type='password']")).sendKeys("manager");
-		Thread.sleep(2000); // Let the user actually see something!
+		Thread.sleep(4000); // Let the user actually see something!
 		driver.quit();
 	}
 }
