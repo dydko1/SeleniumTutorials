@@ -24,7 +24,7 @@ public class TestBase {
 		// To maximize browser
 		driver.manage().window().maximize();
 		// Implicit wait
-		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		// To open facebook
 		driver.get("https://www.facebook.com");
 	}

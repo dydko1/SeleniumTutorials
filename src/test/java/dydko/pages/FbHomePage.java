@@ -16,7 +16,7 @@ public class FbHomePage {
 	//@FindBy(how = How.XPATH, using = "//*[@id=\"pageLoginAnchor\"]")
 	@FindBy(how = How.CSS, using = "#pageLoginAnchor")
 	WebElement profileDropdown;
-	@FindBy(how = How.XPATH, using = "//*[@id=\"js_e\"]/div/div/ul/li[9]/a/span/span")
+	@FindBy(how = How.CLASS_NAME, using = "_54nh")
 	WebElement logoutLink;
 
 	// Defining all the user actions (Methods) that can be performed in the Facebook

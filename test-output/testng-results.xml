@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Everjobs Suite" duration-ms="14145" started-at="2020-10-28T09:27:02 CET" finished-at="2020-10-28T09:27:16 CET">
+  <suite name="Default suite" duration-ms="12512" started-at="2020-10-28T13:09:18 CET" finished-at="2020-10-28T13:09:31 CET">
     <groups>
     </groups>
-    <test name="Page Object Model Project" duration-ms="14145" started-at="2020-10-28T09:27:02 CET" finished-at="2020-10-28T09:27:16 CET">
+    <test name="Default test" duration-ms="12512" started-at="2020-10-28T13:09:18 CET" finished-at="2020-10-28T13:09:31 CET">
       <class name="dydko.tests.TestBase">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:dydko.tests.TestBase@d44fc21]" name="initialize" is-config="true" duration-ms="5945" started-at="2020-10-28T09:26:56 CET" finished-at="2020-10-28T09:27:02 CET">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:dydko.tests.TestBase@7f13d6e]" name="initialize" is-config="true" duration-ms="5430" started-at="2020-10-28T13:09:13 CET" finished-at="2020-10-28T13:09:18 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:dydko.tests.TestBase@d44fc21]" name="TeardownTest" is-config="true" duration-ms="1101" started-at="2020-10-28T09:27:16 CET" finished-at="2020-10-28T09:27:17 CET">
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:dydko.tests.TestBase@7f13d6e]" name="TeardownTest" is-config="true" duration-ms="1094" started-at="2020-10-28T13:09:31 CET" finished-at="2020-10-28T13:09:32 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
       </class> <!-- dydko.tests.TestBase -->
       <class name="dydko.tests.FbLoginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:dydko.tests.FbLoginTest@23faf8f2]" name="init" duration-ms="14114" started-at="2020-10-28T09:27:02 CET" finished-at="2020-10-28T09:27:16 CET">
+        <test-method status="PASS" signature="init()[pri:0, instance:dydko.tests.FbLoginTest@51cdd8a]" name="init" duration-ms="12483" started-at="2020-10-28T13:09:18 CET" finished-at="2020-10-28T13:09:31 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
       </class> <!-- dydko.tests.FbLoginTest -->
-    </test> <!-- Page Object Model Project -->
-  </suite> <!-- Everjobs Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
