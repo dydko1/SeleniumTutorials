@@ -12,8 +12,8 @@ public class FbLoginTest extends TestBase {
 		FbLoginPage loginpage = PageFactory.initElements(driver, FbLoginPage.class);
 		loginpage.acceptButton();
 		Thread.sleep(500);
-		loginpage.setEmail("miroslaw.dyduch@gmail.com");
-		loginpage.setPassword("2020Styczen^");
+		loginpage.setEmail("xxxxxxx");
+		loginpage.setPassword("xxxxxx");
 		loginpage.clickOnLoginButton();
 		Thread.sleep(1000);
 		FbHomePage homepage = PageFactory.initElements(driver, FbHomePage.class);
