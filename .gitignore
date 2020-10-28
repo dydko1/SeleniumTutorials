@@ -1,6 +1,10 @@
 /test-output/
 /README.md
 /drivers/
-/src/
 /target/
 /testData/
+/src/
+/target/
+/test-output/
+/testData/
+debug.log
