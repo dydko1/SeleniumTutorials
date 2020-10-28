@@ -6,4 +6,5 @@
 /target/
 /test-output/
 /testData/
+/.settings/
 debug.log
