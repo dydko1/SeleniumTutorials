@@ -1,4 +1,4 @@
-package test;
+package guru99v2.test;
 
 import java.util.concurrent.TimeUnit;
 
@@ -6,16 +6,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
+
 import org.testng.annotations.BeforeTest;
 
 import org.testng.annotations.Test;
 
-import pages.Guru99HomePage;
+import guru99v2.PageFactory.Guru99HomePage;
 
-import pages.Guru99Login;
+import guru99v2.PageFactory.Guru99Login;
 
-public class Test99GuruLogin {
+public class Test99GuruLoginWithPageFactory {
 
     String driverPath = "drivers/chromedriver.exe";
     
@@ -23,13 +23,13 @@ public class Test99GuruLogin {
 
     Guru99Login objLogin;
 
-    Guru99HomePage objHomePage;
+    Guru99HomePage objHomePage; 
 
     @BeforeTest
 
     public void setup(){
 
-	System.setProperty("webdriver.chrome.driver", driverPath);
+        System.setProperty("webdriver.chrome.driver", driverPath);
         
         driver = new ChromeDriver();
 
@@ -41,7 +41,7 @@ public class Test99GuruLogin {
 
     /**
 
-     * This test case will login in http://demo.guru99.com/V4/
+     * This test go to http://demo.guru99.com/V4/
 
      * Verify login page title as guru99 bank
 
@@ -67,7 +67,7 @@ public class Test99GuruLogin {
 
     //login to application
 
-    objLogin.loginToGuru99("mgr123", "mgr!23");
+    objLogin.loginToGuru99("mngr304185", "EdytEpy");
 
     // go the next page
 
@@ -75,14 +75,8 @@ public class Test99GuruLogin {
 
     //Verify home page
 
-    Assert.assertTrue(objHomePage.getHomePageDashboardUserName().toLowerCase().contains("manger id : mgr123"));
+    Assert.assertTrue(objHomePage.getHomePageDashboardUserName().toLowerCase().contains("manger id : mngr304185"));
 
     }
-    
-    @AfterTest
-    public void close1()
-    {
-    	//driver.close();
-    }
-    
+
 }

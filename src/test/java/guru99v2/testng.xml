@@ -3,8 +3,8 @@
 <suite name="Everjobs Suite">
 	<test name="Page Object Model Project">
 		<classes>
-			<class name="browserStack.tests.BrowserStackSetup" />
-			<class name="browserStack.tests.BrowserStackSetupPageFactory" />
+			<class name="guru99v2.test.Test99GuruLogin" />
+			<class name="guru99v2.test.Test99GuruLoginWithPageFactory" />
 		</classes>
 	</test>
 </suite> <!-- Suite -->

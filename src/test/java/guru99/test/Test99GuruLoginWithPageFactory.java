@@ -11,9 +11,9 @@ import org.testng.annotations.BeforeTest;
 
 import org.testng.annotations.Test;
 
-import PageFactory.Guru99HomePage;
+import guru99v2.PageFactory.Guru99HomePage;
 
-import PageFactory.Guru99Login;
+import guru99v2.PageFactory.Guru99Login;
 
 public class Test99GuruLoginWithPageFactory {
 

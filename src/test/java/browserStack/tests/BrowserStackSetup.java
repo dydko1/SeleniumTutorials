@@ -36,7 +36,7 @@ public class BrowserStackSetup {
 		objBrowserStackSignUpPage.veryHeader();
 		objBrowserStackSignUpPage.enterFullName("Miroslaw");
 		objBrowserStackSignUpPage.enterBusinessEmail("miroslaw.dyduch@gmail.com");
-		objBrowserStackSignUpPage.enterPasswrod("xxx");
+		objBrowserStackSignUpPage.enterPasswrod("Mirdyd12345^");
 		Thread.sleep(500);
 		objBrowserStackSignUpPage.loginIn();
 	}

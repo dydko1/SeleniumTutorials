@@ -1,4 +1,4 @@
-package pages;
+package guru99v2.pages;
 
 import org.openqa.selenium.By;
 

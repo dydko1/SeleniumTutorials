@@ -10,9 +10,9 @@ import org.testng.annotations.BeforeTest;
 
 import org.testng.annotations.Test;
 
-import pages.Guru99HomePage;
+import guru99v2.pages.Guru99HomePage;
 
-import pages.Guru99Login;
+import guru99v2.pages.Guru99Login;
 
 public class Test99GuruLogin {
 
